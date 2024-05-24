@@ -1,0 +1,40 @@
+.container {
+  background: rgb(0, 0, 0);
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+
+  column-gap: 10px;
+  row-gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container div:first-child {
+  background: linear-gradient(
+    90deg,
+    rgba(36, 0, 0, 1) 0%,
+    rgba(255, 0, 0, 1) 100%,
+    rgba(147, 12, 50, 1) 100%
+  );
+
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+/* img:hover{
+  width: 110%;
+  height: auto;
+} */
+.div-container-img {
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
